@@ -1,0 +1,16 @@
+{
+  "name": "voxi-invite",
+  "version": "0.0.1",
+  "description": "Voxi Invite Bot",
+  "main": "yashinu.js",
+  "scripts": {
+    "test": "node voxi.js"
+  },
+  "author": "Voxi",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "mongoose": "^5.9.19"
+  },
+  "keywords": []
+}

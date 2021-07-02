@@ -3,8 +3,8 @@ const client = global.client = new Client({fetchAllMembers: true});
 const { botOwner, botPrefix, botToken, guildID, botVoiceChannelID, inviteChannelID, durum } = require('./ayarlar.json');
 const guildInvites = new Map();
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://voxi:55BAXBANY@cluster0.ugpqz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});// Mongo connect linki
-// Yashinu tarafından kodlanmıştır.
+mongoose.connect('', {useNewUrlParser: true, useUnifiedTopology: true});// Mongo connect linki
+// Voxi tarafından kodlanmıştır.
 
 client.on("ready", async () => {
   client.user.setPresence({ activity: { name: durum }, status: "online" });
